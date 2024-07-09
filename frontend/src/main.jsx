@@ -23,4 +23,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 			</GridBackground>
 		</BrowserRouter>
 	</React.StrictMode>
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> origin/main

@@ -101,4 +101,8 @@ const userResolver = {
 	},
 };
 
+<<<<<<< HEAD
 export default userResolver;
+=======
+export default userResolver;
+>>>>>>> origin/main

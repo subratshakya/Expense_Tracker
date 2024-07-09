@@ -34,7 +34,15 @@ const httpServer = http.createServer(app);
 const MongoDBStore = connectMongo(session);
 
 const store = new MongoDBStore({
+<<<<<<< HEAD
 	uri: process.env.MONGO_URI,
+=======
+<<<<<<< HEAD
+	uri:process.env.MONGO_URI,
+=======
+	uri: process.env.MONGO_URI,
+>>>>>>> 612faa9106d3f31c019c81e2e601cf7d17c60697
+>>>>>>> origin/main
 	collection: "sessions",
 });
 
@@ -92,4 +100,8 @@ app.get("*", (req, res) => {
 await new Promise((resolve) => httpServer.listen({ port: 4000 }, resolve));
 await connectDB();
 
+<<<<<<< HEAD
 console.log(`🚀 Server ready at http://localhost:4000/graphql`);
+=======
+console.log(`🚀 Server ready at http://localhost:4000/graphql`);
+>>>>>>> origin/main

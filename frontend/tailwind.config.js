@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import svgToDataUri from "mini-svg-data-uri";
 import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
 
@@ -43,3 +44,17 @@ function addVariablesForColors({ addBase, theme }) {
 		":root": newVars,
 	});
 }
+=======
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+>>>>>>> origin/main

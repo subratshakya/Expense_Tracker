@@ -16,4 +16,8 @@ export default mergedTypeDefs;
 
 // Reuse: You can reuse type definitions across different parts of the schema, potentially reducing duplication.
 
+<<<<<<< HEAD
 // Clear Separation of Concerns: Each file can focus on a specific domain or type of data, making it easier to understand and maintain.
+=======
+// Clear Separation of Concerns: Each file can focus on a specific domain or type of data, making it easier to understand and maintain.
+>>>>>>> origin/main

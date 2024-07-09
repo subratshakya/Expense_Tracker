@@ -18,6 +18,11 @@ const job = new cron.CronJob("*/14 * * * *", function () {
 });
 
 export default job;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> origin/main
 
 // CRON JOB EXPLANATION:
 // Cron jobs are scheduled tasks that run periodically at fixed intervals or specific times
@@ -34,3 +39,7 @@ export default job;
 //* 30 3 15 * * - At 3:30 AM, on the 15th of every month
 //* 0 0 1 1 * - At midnight, on January 1st
 //* 0 * * * * - Every hour
+<<<<<<< HEAD
+=======
+>>>>>>> 612faa9106d3f31c019c81e2e601cf7d17c60697
+>>>>>>> origin/main

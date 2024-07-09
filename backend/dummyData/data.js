@@ -97,4 +97,8 @@ const transactions = [
 ];
 
 // Export the arrays
+<<<<<<< HEAD
 export { users, transactions };
+=======
+export { users, transactions };
+>>>>>>> origin/main

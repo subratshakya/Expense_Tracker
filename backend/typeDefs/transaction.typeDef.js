@@ -48,4 +48,8 @@ const transactionTypeDef = `#graphql
   }
 `;
 
+<<<<<<< HEAD
 export default transactionTypeDef;
+=======
+export default transactionTypeDef;
+>>>>>>> origin/main

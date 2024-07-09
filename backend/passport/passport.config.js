@@ -39,4 +39,8 @@ export const configurePassport = async () => {
 			}
 		})
 	);
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> origin/main

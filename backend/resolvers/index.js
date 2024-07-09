@@ -5,4 +5,8 @@ import transactionResolver from "./transaction.resolver.js";
 
 const mergedResolvers = mergeResolvers([userResolver, transactionResolver]);
 
+<<<<<<< HEAD
 export default mergedResolvers;
+=======
+export default mergedResolvers;
+>>>>>>> origin/main
