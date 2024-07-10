@@ -101,8 +101,4 @@ const transactionResolver = {
 	},
 };
 
-<<<<<<< HEAD
 export default transactionResolver;
-=======
-export default transactionResolver;
->>>>>>> origin/main
