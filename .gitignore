@@ -1,7 +1,9 @@
 <<<<<<< HEAD
 node_modules
 .env
+COPY-PASTE.md
 =======
 nodemodules
 .env
+COPY-PASTE.md
 >>>>>>> origin/main
