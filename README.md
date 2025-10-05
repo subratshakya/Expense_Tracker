@@ -1,32 +1,106 @@
+📊 Expense Tracker
+
+A full-stack MERN (MongoDB, Express.js, React.js, Node.js) application to manage and track expenses.
+It allows users to add, delete, and view expenses with secure authentication and persistent storage.
+
+⸻
+
+🚀 Features
+	•	User Authentication
+	•	Secure login & signup with JWT authentication.
+	•	Passwords hashed with bcrypt.
+	•	Expense Management
+	•	Add, edit, and delete expenses.
+	•	Categorize expenses (food, travel, bills, etc.).
+	•	View expense history with filtering options.
+	•	Frontend (React)
+	•	Built with React.js for dynamic UI.
+	•	Uses axios to interact with backend APIs.
+	•	State management using React hooks.
+	•	Backend (Node + Express)
+	•	RESTful API endpoints for user and expense management.
+	•	Middleware for authentication & validation.
+	•	Connected to MongoDB for persistent storage.
+
+⸻
+
+🛠️ Tech Stack
+	•	Frontend: React.js, Axios, HTML, CSS
+	•	Backend: Node.js, Express.js
+	•	Database: MongoDB (Mongoose ODM)
+	•	Authentication: JWT, bcrypt
+
+⸻
+
+📂 Project Structure
+
+Expense_Tracker/
+│── backend/              # Express + Node.js server
+│   ├── models/           # Mongoose schemas
+│   ├── routes/           # API routes
+│   ├── controllers/      # Business logic
+│   └── server.js         # Entry point
+│
+│── frontend/             # React app
+│   ├── src/
+│   │   ├── api/          # Axios API wrappers
+│   │   ├── components/   # React components
+│   │   ├── pages/        # Main pages
+│   │   └── App.js        # Root component
+│
+└── README.md
 
 
-Welcome to the MERN GraphQL Expense Tracker App! This project is designed to help you manage your expenses efficiently using a modern tech stack and GraphQL.
+⸻
 
-## Features:
+⚡ API Endpoints
 
--   🌟 Tech stack: MERN (MongoDB, Express.js, React.js, Node.js) + Apollo GraphQL
--   📝 Learn type definitions and resolvers for defining GraphQL schema and data fetching logic
--   🔄 Mutations for modifying data in the GraphQL API and establishing graph relations
--   🎃 Authentication with Passport.js and MongoDB session store
--   🚀 Global state management with Apollo Client
--   🐞 Error handling both on the server and on the client
+Auth Routes
+	•	POST /api/auth/register → Register new user
+	•	POST /api/auth/login → User login
+
+Expense Routes
+	•	GET /api/expenses → Fetch all expenses for logged-in user
+	•	POST /api/expenses → Add a new expense
+	•	DELETE /api/expenses/:id → Delete an expense
+
+⸻
+
+🔧 Installation
+	1.	Clone the repository
+
+git clone https://github.com/subratshakya/Expense_Tracker.git
+cd Expense_Tracker
 
 
-### Setup .env file
+	2.	Install backend dependencies
 
-```js
-MONGO_URI=...
-SESSION_SECRET=...
-```
+cd backend
+npm install
 
-### Build the app
 
-```shell
-npm run build
-```
+	3.	Install frontend dependencies
 
-### Start the app
+cd ../frontend
+npm install
 
-```shell
+
+	4.	Create a .env file inside backend
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
+
+
+	5.	Start backend server
+
+cd backend
 npm start
-```
+
+
+	6.	Start frontend React app
+
+cd frontend
+npm start
+
+
